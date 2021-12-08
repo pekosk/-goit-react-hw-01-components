@@ -1,0 +1,15 @@
+.TransactionHistory {
+  background-color: teal;
+  border-spacing: 0;
+  text-align: center;
+
+  width: 720px;
+}
+
+th {
+  border: 1px solid yellowgreen;
+}
+
+td {
+  border: 1px solid yellowgreen;
+}

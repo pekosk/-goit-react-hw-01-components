@@ -3,6 +3,7 @@ import styles from './App.css';
 import Profile from './components/Profile';
 import Statistics from './components/Statistics';
 import Friends from './components/Friends';
+import TransactionHistory from './components/Transactions';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
   stats={data.user.stats}
       />
       <Statistics title="Upload stats" stats={data.statistic} />
-      <Friends />
+      <Statistics stats={data.statistic} />
+      <Friends friends={data.friends} />
+      <TransactionHistory items={data.transactions} />;
       </div>
   );
 }
