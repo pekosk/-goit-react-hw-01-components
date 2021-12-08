@@ -1,13 +1,17 @@
 import data from './data';
-import User from './components/User'
+import Profile from './components/Profile';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <User />
-      </header>
-    </div>
+     <div >
+      <Profile
+  username={data.user.username}
+  tag={data.user.tag}
+  location={data.user.location}
+  avatar={data.user.avatar}
+  stats={data.user.stats}
+      />
+      </div>
   );
 }
 

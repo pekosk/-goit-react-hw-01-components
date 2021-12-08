@@ -1,13 +1,13 @@
-import friends from './friends';
-import statistic from './statistic';
-import transactions from './transactions';
-import user from './user';
+import user from "./user.json";
+import statistic from "./statistic.json";
+import friends from "./friends.json";
+import transactions from "./transactions.json";
 
 const data = {
-    friends,
-    statistic,
-    transactions,
-    user,
-}
+  user,
+  statistic,
+  friends,
+  transactions,
+};
 
 export default data;
